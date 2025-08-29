@@ -1,0 +1,7 @@
+# Ignore sensitive files
+assets/Profile image.webp
+assets/Rahul_Resume.pdf
+
+# Optional: common OS / editor files
+.DS_Store
+.vscode/

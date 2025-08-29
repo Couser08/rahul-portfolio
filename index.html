@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO & Meta Tags -->
+    <title>Rahul Tungariya | Creative Developer & Designer</title>
+    <meta name="description" content="The portfolio of Rahul Tungariya, a creative front-end developer specializing in modern, aesthetic, and performant websites with GSAP animations." />
+    <meta name="author" content="Rahul Tungariya" />
+    <meta property="og:title" content="Rahul Tungariya | Creative Developer & Designer" />
+    <meta property="og:description" content="Explore the work of Rahul Tungariya, featuring high-end web projects with a minimal aesthetic and fluid animations." />
+    <meta property="og:image" content="assets/og-image.jpg" />
+    <meta property="og:url" content="https://your-domain.com" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0D0D0D" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@700&display=swap" rel="stylesheet" />
+
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Skip link for accessibility -->
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" role="banner">
+        <nav class="nav container" aria-label="Main Navigation">
+            <a href="#" class="nav__logo">RT.</a>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main id="main" class="main" role="main">
+        <!--========== HERO ==========-->
+        <section id="hero" class="hero">
+            <div class="hero__container container">
+                <h1 class="hero__title">Rahul Tungariya</h1>
+                <p class="hero__subtitle">Creative Developer &amp; UI/UX Enthusiast</p>
+                <a href="#projects" class="button hero__button">View My Work</a>
+            </div>
+            <div class="hero__bg" aria-hidden="true"></div>
+        </section>
+
+        <!--========== ABOUT ==========-->
+        <section id="about" class="about section" aria-labelledby="about-title">
+            <div class="about__container container grid">
+                <figure class="about__image">
+                    <img src="assets/Profile image.webp" alt="A portrait of Rahul Tungariya" class="about__img" loading="lazy">
+                </figure>
+                <div class="about__data">
+                    <h2 id="about-title" class="section__title">About Me</h2>
+                    <p class="about__description">
+                        Hey, I’m Rahul, a BCA student who’s really into web development. I enjoy working with HTML, CSS, and JavaScript to create clean and responsive web pages. Playing around with layouts, styles, and small interactive features is my jam. Through the projects I’ve built, I’ve learned a lot about problem-solving, experimenting with code, and gradually improving my skills. I’m always excited to try new things, learn more, and make projects that are both functional and visually appealing.
+                    </p>
+                    <div class="about__buttons">
+                        <a href="assets/Resume.pdf" class="button" download="Rahul_Resume.pdf">Download CV</a>
+                        <a href="#contact" class="button button--ghost">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--========== SKILLS ==========-->
+        <section id="skills" class="skills section" aria-labelledby="skills-title">
+            <h2 id="skills-title" class="section__title">My Skills</h2>
+            <div class="skills__container container grid">
+                <div class="skills__card"><i class='bx bxl-html5 skills__icon' aria-hidden="true"></i><br><span>HTML5</span></div>
+                <div class="skills__card"><i class='bx bxl-css3 skills__icon' aria-hidden="true"></i><br><span>CSS3</span></div>
+                <div class="skills__card"><i class='bx bxl-javascript skills__icon' aria-hidden="true"></i><br><span>JavaScript</span></div>
+                <!-- <div class="skills__card"><i class='bx bxl-react skills__icon' aria-hidden="true"></i><br><span>React</span></div>
+                <div class="skills__card"><i class='bx bxl-figma skills__icon' aria-hidden="true"></i><br><span>Figma</span></div>
+                <div class="skills__card"><i class='bx bxl-git skills__icon' aria-hidden="true"></i><br><span>Git</span></div> -->
+            </div>
+        </section>
+
+        <!--========== PROJECTS ==========-->
+        <section id="projects" class="projects section" aria-labelledby="projects-title">
+            <h2 id="projects-title" class="section__title">Featured Projects</h2>
+            <div class="projects__container">
+                <!-- Project Card 1 -->
+                <article class="projects__card">
+                    <div class="projects__img-wrapper">
+                        <img src="assets/VYBE.webp" alt="Screenshot of Project VYBE street wear" class="projects__img" loading="lazy">
+                    </div>
+                    <div class="projects__data">
+                        <h3 class="projects__title">Project One</h3>
+                        <p class="projects__description">A sleek and modern e-commerce concept.</p>
+                        <a href="https://vybe-streetwear-site.vercel.app/" class="button button--small">View Project</a>
+                    </div>
+                </article>
+                <!-- Project Card 2 -->
+                <article class="projects__card">
+                    <div class="projects__img-wrapper">
+                        <img src="assets/Zenhabits.webp" alt="Screenshot of Project Two" class="projects__img" loading="lazy">
+                    </div>
+                    <div class="projects__data">
+                        <h3 class="projects__title">Project Two</h3>
+                        <p class="projects__description">Interactive data visualization dashboard.</p>
+                        <a href="https://zenhabits.vercel.app/" class="button button--small">View Project</a>
+                    </div>
+                </article>
+                <!-- Project Card 3 -->
+                <article class="projects__card">
+                    <div class="projects__img-wrapper">
+                        <img src="assets/WorkSpace.webp" alt="Screenshot of Project Workspace" class="projects__img" loading="lazy">
+                    </div>
+                    <div class="projects__data">
+                        <h3 class="projects__title">Future Project</h3>
+                        <p class="projects__description">I've started my journey with React and I'm really enjoying it. The next project you see here will be a full-fledged web application, and it's going to be all about what I've learned with this new technology.</p>
+                        <a href="#" class="button button--small">View Project</a>
+                    </div>
+                </article>
+                <!-- Project Card 4 -->
+                <article class="projects__card">
+                    <div class="projects__img-wrapper">
+                        <img src="assets/WorkSpace.webp" alt="Screenshot of Project Workspace" class="projects__img" loading="lazy">
+                    </div>
+                    <div class="projects__data">
+                        <h3 class="projects__title">Design Exploration</h3>
+                        <p class="projects__description">A travel booking website with a unique UI.</p>
+                        <a href="#" class="button button--small">View Project</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--========== TESTIMONIALS ==========-->
+        <!-- <section id="testimonials" class="testimonials section" aria-labelledby="testimonials-title">
+            <h2 id="testimonials-title" class="section__title">What Others Say</h2>
+            <div class="testimonials__container container">
+                <div class="testimonials__wrapper">
+                    <figure class="testimonials__slide">
+                        <img src="assets/testimonial1.jpg" alt="Portrait of Sarah Jones" class="testimonials__img" loading="lazy">
+                        <blockquote class="testimonials__text">"Working with Jane was a dream. The final product exceeded all our expectations."</blockquote>
+                        <figcaption>
+                            <h3 class="testimonials__name">Sarah Jones</h3>
+                            <p class="testimonials__role">CEO, TechCorp</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="testimonials__slide">
+                        <img src="assets/testimonial2.jpg" alt="Portrait of Mike Williams" class="testimonials__img" loading="lazy">
+                        <blockquote class="testimonials__text">"An incredibly talented developer with a fantastic eye for design. Highly recommended."</blockquote>
+                        <figcaption>
+                            <h3 class="testimonials__name">Mike Williams</h3>
+                            <p class="testimonials__role">Art Director, Creative Co.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="testimonials__slide">
+                        <img src="assets/testimonial3.jpg" alt="Portrait of Emily Davis" class="testimonials__img" loading="lazy">
+                        <blockquote class="testimonials__text">"The best of the best. The website is not only beautiful but also incredibly fast."</blockquote>
+                        <figcaption>
+                            <h3 class="testimonials__name">Emily Davis</h3>
+                            <p class="testimonials__role">Founder, StartupX</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section> -->
+
+        <!--========== CONTACT ==========-->
+        <section id="contact" class="contact section" aria-labelledby="contact-title">
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h2 id="contact-title" class="section__title">Let's Connect</h2>
+                    <p class="contact__description">Got a project idea or just want to say hi? Don’t hesitate to reach out! I’m always excited to connect, collaborate, and explore new opportunities.</p>
+                </div>
+                <form action="#" class="contact__form" novalidate>
+                    <div class="contact__form-div">
+                        <input aria-label="Name" type="text" id="name" name="name" class="contact__form-input" placeholder="e.g. Rahul Tungariya" required autocomplete="name">
+                        <label for="name" class="contact__form-tag">Name</label>
+                    </div>
+                    <div class="contact__form-div">
+                        <input aria-label="Email" type="email" id="email" name="email" class="contact__form-input" placeholder="e.g. rahul.tungariya@example.com" required autocomplete="email">
+                        <label for="email" class="contact__form-tag">Email</label>
+                    </div>
+                    <div class="contact__form-div">
+                        <textarea aria-label="Message" id="message" name="message" rows="5" class="contact__form-input" placeholder="Your message here..." required></textarea>
+                        <label for="message" class="contact__form-tag">Message</label>
+                    </div>
+                    <button type="submit" class="button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" role="contentinfo">
+        <div class="footer__container container">
+            <p class="footer__copy">&copy; 2025 Rahul Tungariya. All rights reserved.</p>
+            <div class="footer__social">
+                <a href="https://github.com/Couser08" class="footer__social-link" aria-label="GitHub Profile" rel="noopener noreferrer" target="_blank">
+                    <i class='bx bxl-github' aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/rahul-tungariya-9468a2351/" class="footer__social-link" aria-label="LinkedIn Profile" rel="noopener noreferrer" target="_blank">
+                    <i class='bx bxl-linkedin' aria-hidden="true"></i>
+                </a>
+                <a href="#" class="footer__social-link" aria-label="Twitter Profile" rel="noopener noreferrer">
+                    <i class='bx bxl-twitter' aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== GSAP & ScrollTrigger ==========-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="script.js"></script>
+</body>
+</html>
