@@ -1,6 +1,6 @@
 # Ignore sensitive files
 assets/Profile image.webp
-assets/Rahul_Resume.pdf
+assets/Resume.pdf
 
 # Optional: common OS / editor files
 .DS_Store
